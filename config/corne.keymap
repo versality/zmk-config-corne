@@ -8,9 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 
 &mt {
-    require-prior-idle-ms = <120>;
-    tapping-term-ms = <120>;
+    require-prior-idle-ms = <125>;
+    tapping-term-ms = <150>;
     flavor = "tap-preferred";
+    quick-tap-ms = <150>;
 };
 
 / {
