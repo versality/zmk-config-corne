@@ -20,7 +20,7 @@
 
             bindings = <
 &none  &kp Q        &kp W           &kp F             &kp P           &kp G        &kp J    &kp L            &kp U              &kp Y            &kp SEMICOLON  &none
-&none  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_GUI T  &kp D        &kp H    &mt RIGHT_GUI N  &mt RIGHT_SHIFT E  &mt L RIGHT_ALT  &mt RCTRL O    &none
+&none  &mt LCTRL A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_GUI T  &kp D        &kp H    &mt RIGHT_GUI N  &mt RIGHT_SHIFT E  &mt I RIGHT_ALT  &mt RCTRL O    &none
 &none  &lt 2 Z      &kp X           &kp C             &kp V           &kp B        &kp K    &kp M            &kp COMMA          &kp DOT          &kp FSLH       &none
                                     &mo 1             &kp BACKSPACE   &kp SPACE    &kp RET  &trans           &mo 2
             >;
@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL   &kp AT  &kp HASH  &kp DLLR              &kp PRCNT                &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &none
-&none  &kp GRAVE  &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &none
-&none  &trans     &trans  &trans    &trans                &trans                   &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &none
-                          &trans    &trans                &trans                   &trans     &trans     &trans
+&none  &kp EXCL   &kp AT             &kp HASH          &kp DLLR              &kp PRCNT                &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp MINUS  &kp PLUS  &none
+&none  &kp GRAVE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp UNDER  &kp EQUAL  &kp LBKT         &kp RBKT   &kp BSLH  &none
+&none  &trans     &trans             &kp QUESTION      &trans                &trans                   &trans     &trans     &trans           &trans     &kp PIPE  &none
+                                     &trans            &trans                &trans                   &trans     &trans     &trans
             >;
         };
 
