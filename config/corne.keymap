@@ -70,8 +70,17 @@
             bindings = <
 &none  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none
 &none  &kp F11  &kp F12  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &none
-&none  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &none
+&none  &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &to 4    &none
                          &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &kp GRAVE       &kp Q  &kp W  &kp E         &kp R        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL       &kp Z  &kp X  &kp C         &kp V        &trans  &trans  &trans  &trans  &to 0   &trans
+                               &mo 1  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
