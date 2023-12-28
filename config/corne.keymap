@@ -78,7 +78,7 @@
         layer_4 {
             bindings = <
 &trans  &kp GRAVE       &kp Q  &kp W  &kp E         &kp R        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F        &kp M   &trans  &trans  &trans  &trans  &trans
 &trans  &kp LCTRL       &kp Z  &kp X  &kp C         &kp V        &trans  &trans  &trans  &trans  &to 0   &trans
                                &mo 1  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &trans
             >;
