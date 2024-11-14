@@ -41,10 +41,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1    &kp N2  &kp N3      &kp N4   &kp N5    &kp N6  &kp N7    &kp N8         &kp N9        &kp N0      &none
-&none  &kp CAPS  &trans  &kp ESCAPE  &kp TAB  &trans    &trans  &kp LEFT  &kp DOWN       &kp UP_ARROW  &kp RIGHT   &none
-&none  &to 0     &trans  &trans      &trans   &trans    &trans  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP   &kp INSERT  &none
-                         &trans      &trans   &trans    &trans  &trans    &mo 3
+&none  &kp N1    &kp N2  &kp N3      &kp N4   &kp N5    &kp N6    &kp N7    &kp N8         &kp N9       &kp N0      &none
+&none  &kp CAPS  &trans  &kp ESCAPE  &kp TAB  &trans    &kp LEFT  &kp DOWN  &kp UP_ARROW   &kp RIGHT    &trans      &none
+&none  &to 0     &trans  &trans      &trans   &trans    &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp INSERT  &none
+                         &trans      &trans   &trans    &trans    &trans    &mo 3
             >;
         };
 
