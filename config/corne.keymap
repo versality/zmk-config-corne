@@ -44,11 +44,11 @@
 &none  &trans            &trans             &trans     &trans     &trans    &trans     &trans     &trans         &trans        &trans    &none
 &none  &trans            &trans             &trans     &trans     &trans    &kp LEFT   &kp DOWN   &kp UP_ARROW   &kp RIGHT     &trans    &none
 &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &trans    &kp GRAVE  &kp SLASH  &kp BACKSLASH  &kp QUESTION  &kp PIPE  &none
-                                            &trans     &trans     &trans    &trans     &trans     &mo 3
+                                            &trans     &trans     &trans    &trans     &trans     &trans
             >;
         };
 
-        characters {
+        upper_layout {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -63,30 +63,12 @@
             >;
         };
 
-        f-keys {
-            bindings = <
-&none  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &none
-&none  &kp F11  &kp F12  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &none
-&none  &to 4    &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &to 5    &none
-                         &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
-
         qwerty {
             bindings = <
 &trans  &kp Q  &kp W  &kp E  &kp R     &kp T        &kp Y      &kp U   &kp I      &kp O    &kp P     &trans
 &trans  &kp A  &kp S  &kp D  &kp F     &kp G        &kp H      &kp J   &kp K      &kp L    &kp SEMI  &trans
 &trans  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
                       &mo 1  &kp BSPC  &kp SPACE    &kp ENTER  &trans  &to 0
-            >;
-        };
-
-        gaming {
-            bindings = <
-&trans  &kp GRAVE       &kp Q  &kp W  &kp E         &kp R        &kp T   &kp Y   &kp U   &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F        &kp G   &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL       &kp Z  &kp X  &kp C         &kp V        &trans  &trans  &trans  &trans  &trans  &trans
-                               &mo 1  &kp LEFT_ALT  &kp SPACE    &trans  &trans  &to 0
             >;
         };
     };
